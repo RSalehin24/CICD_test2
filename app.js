@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Azure, RSalehin24!')
+    res.send('Welcome to Heroku, RSalehin24!')
 });
 
 app.listen(process.env.PORT || 8080, () => {
